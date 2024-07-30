@@ -1,0 +1,31 @@
+/* Custom CSS for portfolio */
+
+.hero {
+    background: url('https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63996.jpg?ga=GA1.1.846248269.1722318923&semt=ais_hybrid') center center/cover no-repeat;
+    color: black;
+    padding: 100px 0;
+  }
+  
+  .about-img {
+    margin-top: 30px;
+  }
+  
+  .portfolio .card {
+    transition: transform 0.3s;
+  }
+  
+  .portfolio .card:hover {
+    transform: translateY(-10px);
+  }
+
+  iframe{
+    width:fit-content;
+    height: fit-content;
+  }
+  
+  @media (min-width: 768px) {
+    .hero {
+      min-height: 100vh;
+    }
+  }
+  
